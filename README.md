@@ -1,17 +1,12 @@
-Burp Cookie Switcher
-
+~ Burp Cookie Switcher:
 A lightweight Burp Suite extension for quickly switching between different authentication cookies while manually testing Broken Access Control (BAC).
 
-Why I Created This
-
+~ Why I Created This:
 Authorization-testing extensions can produce a lot of false positives and may not work properly with endpoints such as edit and delete requests.
 
-Manually testing BAC can also become boring and time-consuming when you have to repeatedly replace authentication tokens or cookies.
+Manually testing BAC can also become boring and time-consuming when you have to repeatedly replace authentication tokens or cookies, So I created this extension to make manual BAC testing faster and easier.
 
-So I created this extension to make manual BAC testing faster and easier.
-
-How It Works
-
+~ How It Works:
 The extension lets you save two authentication cookies:
 
 Admin cookie
@@ -21,7 +16,7 @@ You can then quickly switch between them directly from Burp Repeater.
 
 Instead of manually replacing the cookie every time, you can simply switch the authentication context with a right-click.
 
-Setup
+~ Setup:
 Open Burp Suite.
 Go to Extensions.
 Add the Python extension cookie_switcher.py.
